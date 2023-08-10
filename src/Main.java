@@ -5,11 +5,11 @@ public class Main {
         int refill = 1000;
 
         if (refill > 1000) {
-            System.out.println((refill / 100) + " рублей бонусами");
-            System.out.printf((refill / 100 + refill + balance) + " рублей - итоговая сумма на балансе");
+            System.out.println((refill / 100) + " рублей бонусами.");
+            System.out.printf((refill / 100 + refill + balance) + " рублей - итоговая сумма на балансе.");
         } else {
-            System.out.println((0) + " рублей бонусами");
-            System.out.printf((refill + balance) + " рублей - итоговая сумма на балансе");
+            System.out.println((0) + " рублей бонусами.");
+            System.out.printf((refill + balance) + " рублей - итоговая сумма на балансе.");
 
     }
 }}
